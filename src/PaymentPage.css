@@ -1,0 +1,89 @@
+.payment-page {
+  max-width: 900px; /* Adjust the width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+  display: flex; /* Use flexbox to align items */
+}
+
+.payment-container {
+  display: flex; /* Nested flex container */
+  justify-content: space-between; /* Separate the two containers */
+  width: 100%; /* Ensure it takes full width */
+}
+
+.payment-form-container {
+  flex: 1; /* Take up remaining space */
+  padding-right: 20px; /* Space between form and product details */
+}
+
+.product-details-container {
+  flex: 1; /* Take up remaining space */
+  padding-left: 20px; /* Space between form and product details */
+}
+
+.payment-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.payment-form .form-group {
+  margin-bottom: 15px;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="password"],
+.payment-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-form .verify-button,
+.payment-form .submit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.payment-form .verify-button:hover,
+.payment-form .submit-button:hover {
+  background-color: #45a049;
+}
+
+.payment-form .card-details,
+.payment-form .netbanking-details {
+  margin-top: 15px;
+}
+
+.payment-form .form-group p {
+  margin: 10px 0;
+}
+
+.product-details {
+  text-align: center;
+}
+
+.product-details img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
